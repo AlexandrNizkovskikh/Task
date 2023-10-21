@@ -1,0 +1,95 @@
+/* Сброс стилей для начала работы с чистым холстом */
+h1, h2, p, ul, h3, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовок страницы */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 52px;
+    margin: 10px 0;
+}
+
+h3 {
+    margin: 20px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Главное содержание страницы */
+main {
+    padding: 20px;
+}
+
+/* Секции на странице */
+section {
+    margin: 20px 0;
+}
+
+p {
+    font-size: 26px;
+    line-height: 1.6;
+}
+
+/* Стили для списка (ненумерованный и нумерованный) */
+ul, ol {
+    margin: 0 0 20px 20px;
+}
+
+li {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Подвал страницы */
+footer {
+    text-align: left;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    overflow: hidden; /* Добавляем этот стиль */
+}
+
+
+img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 3%;
+}
+
+body {
+    background-image: url('/images/background.jpg');
+}
+
+#logo {
+text-decoration: none;
+font-weight: bold;
+font-size: 24px;
+float: left;
+}
+
+
